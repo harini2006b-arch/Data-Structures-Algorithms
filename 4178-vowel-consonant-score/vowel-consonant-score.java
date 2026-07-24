@@ -5,22 +5,18 @@ class Solution {
         String lc = s.toLowerCase(); 
         for (int i = 0; i < lc.length(); i++) { 
             char ch = lc.charAt(i); 
-            
-            if (ch == ' ') { 
+                if (ch == ' ') { 
                 continue; 
             } 
-            
-            if (Character.isLetter(ch)) { 
+            if (ch >= 'a' && ch <= 'z') { 
                 if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') { 
                     v++; 
-                } else { 
-                    c++; 
-                } 
-            } 
+                } else c++; 
+            }
         } 
-                if (c == 0) { 
+        if (c == 0) { 
             return 0; 
         } 
         return (v / c); 
     } 
-} 
+}
