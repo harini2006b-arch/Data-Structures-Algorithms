@@ -6,10 +6,8 @@ class Solution {
         for(int b:nums){
             sum=sum+b;
             a[index]=sum;
-            index++;
-            
+            index++;      
         }
         return a;
-        
     }
     }
