@@ -5,7 +5,5 @@ class Solution {
         else{
             return -n-1;
         }
-
-        
     }
 }
