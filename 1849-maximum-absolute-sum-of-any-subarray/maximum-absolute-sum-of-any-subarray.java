@@ -9,8 +9,6 @@ class Solution {
             maxSum = Math.max(maxSum, currentMax);
             currentMin = Math.min(num, currentMin + num);
             minSum = Math.min(minSum, currentMin);
-
-            
         }
         return Math.max(Math.abs(maxSum),Math.abs(minSum));
     }
