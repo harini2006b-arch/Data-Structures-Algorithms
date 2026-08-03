@@ -8,6 +8,8 @@ class Solution {
             a[index]=sum;
             index++;      
         }
+        
         return a;
     }
+
     }
