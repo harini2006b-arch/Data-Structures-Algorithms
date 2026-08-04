@@ -4,12 +4,15 @@ class Solution {
         for(int num:nums){
             al.add(num);
         }
+        
         while(al.contains(val)){
             al.remove(Integer.valueOf(val));
         }
+
         for(int i=0;i<al.size();i++){
             nums[i]=al.get(i);
         }
+
         return al.size();
     }
 }
