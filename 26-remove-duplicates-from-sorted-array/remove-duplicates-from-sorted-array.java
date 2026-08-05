@@ -1,5 +1,3 @@
-import java.util.LinkedHashSet;
-import java.util.Set;
 
 class Solution {
     public int removeDuplicates(int[] nums) {
@@ -11,7 +9,7 @@ class Solution {
         for (int num : set) {
             nums[i++] = num;
         }
-        
+
         return set.size();
     }
 }
