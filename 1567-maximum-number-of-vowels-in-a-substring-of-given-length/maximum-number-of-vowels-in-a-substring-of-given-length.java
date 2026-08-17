@@ -10,6 +10,7 @@ class Solution {
             if (isVowel(s.charAt(i))) { 
                 count++; 
             } 
+            
         } 
         max = count;
         for (int i = k; i < s.length(); i++) { 
