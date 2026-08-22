@@ -6,9 +6,11 @@ class Solution {
             res[index]=nums[i];
             index++;
         }
+
         for(int i=nums.length-1;i>=0;i--){
             res[index++]=nums[i];
         }
+        
         return res;
         
     }
