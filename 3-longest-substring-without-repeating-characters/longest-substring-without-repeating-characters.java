@@ -9,6 +9,7 @@ class Solution {
                 ch.remove(s.charAt(left));
                 left++;
             }
+            
             ch.add(s.charAt(right));
             maxLength=Math.max(maxLength,right-left+1);
         }
