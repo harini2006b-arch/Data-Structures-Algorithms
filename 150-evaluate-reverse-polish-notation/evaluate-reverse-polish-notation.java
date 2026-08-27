@@ -22,7 +22,8 @@ class Solution {
                 else {
                     stack.push(a / b);
                 }
-            } else {
+            } 
+            else {
                 stack.push(Integer.parseInt(token));
             }
         }
