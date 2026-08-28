@@ -26,6 +26,5 @@ class Solution {
         public List<Integer> postorderTraversal(TreeNode root) {
         postOrder(root,list);
         return list;
-    }
-        
-    }
+    }   
+}
