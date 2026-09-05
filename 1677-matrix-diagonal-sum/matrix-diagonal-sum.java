@@ -7,10 +7,10 @@ class Solution {
                     sum=sum+mat[i][j];
                 }
                 else if(i+j==mat.length-1){
-                    sum=sum+mat[i][j];
-                }     
-            }
+                    sum+=mat[i][j];
+                }
+            }  
         }
-        return sum;
+    return sum;
     }
-    }
+}
