@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
         List<Integer> list1 = new ArrayList<>();
@@ -24,6 +22,7 @@ class Solution {
                 ans1.add(num);
             }
         }
+        
         for(int num : list2){
             if(!list1.contains(num)){
                 ans2.add(num);
