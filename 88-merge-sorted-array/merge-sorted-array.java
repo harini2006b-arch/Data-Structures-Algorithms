@@ -4,5 +4,6 @@ class Solution {
             nums1[m++]=nums2[i];
         }
         Arrays.sort(nums1);
+
     }
 }
