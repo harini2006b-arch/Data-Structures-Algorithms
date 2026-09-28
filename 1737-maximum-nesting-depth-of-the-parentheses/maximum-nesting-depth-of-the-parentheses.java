@@ -10,7 +10,6 @@ class Solution {
                 stack.pop();
             }
             count=Math.max(count,stack.size());
-
         }
         return count;
 
