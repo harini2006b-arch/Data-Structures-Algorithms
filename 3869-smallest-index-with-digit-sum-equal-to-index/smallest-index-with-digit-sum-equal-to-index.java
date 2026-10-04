@@ -7,6 +7,7 @@ class Solution {
                 sum+=num%10;
                 num/=10;
             }
+            
                 if(sum==i){
                     return i;
                 }
