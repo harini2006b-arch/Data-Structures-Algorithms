@@ -10,6 +10,7 @@ class Solution {
             if(map.get(ch)==1){
                 return i;
             }
+            
         }
         return -1;
     }
